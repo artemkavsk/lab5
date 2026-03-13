@@ -16,4 +16,4 @@ with open('task3_out.csv','w', encoding='utf-8', newline='') as f:
     w.writerow(['ID','Фамилия','Email','Дата','Сайт'])
     w.writerows(rows)
 
-print('✅', len(rows))
+print(len(rows))
